@@ -18,3 +18,8 @@ public class BukuDigital extends Buku {
         System.out.println("  Harga akhir : " + formatRupiah(hargaAkhir()) + " (diskon 20%)");
     }
 }
+
+//java: constructor Buku in class Buku cannot be applied to given types;
+//required: java.lang.String,java.lang.String,int
+//found:    no arguments
+//reason: actual and formal argument lists differ in length
